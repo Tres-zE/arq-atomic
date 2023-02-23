@@ -1,0 +1,16 @@
+.banner__imagen{
+    background: url(/assets/img/banner.png) no-repeat center / cover;/*en este orden porque sino, no aparece la imagen*/
+    width: 100%;
+}
+
+@media screen and (min-width: 0) {
+    .banner__imagen{
+        height: calc(100vh - 50px);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__imagen{
+        height: calc(100vh - 72px);
+    }
+}
